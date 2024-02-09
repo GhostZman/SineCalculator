@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68EBAF922B76EA1500BCE4C3 /* SineCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF912B76EA1500BCE4C3 /* SineCalculatorApp.swift */; };
+		68EBAF942B76EA1500BCE4C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF932B76EA1500BCE4C3 /* ContentView.swift */; };
+		68EBAF962B76EA1600BCE4C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68EBAF952B76EA1600BCE4C3 /* Assets.xcassets */; };
+		68EBAF9A2B76EA1600BCE4C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68EBAF992B76EA1600BCE4C3 /* Preview Assets.xcassets */; };
+		68EBAFA42B76EA1700BCE4C3 /* SineCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAFA32B76EA1700BCE4C3 /* SineCalculatorTests.swift */; };
+		68EBAFAE2B76EA1700BCE4C3 /* SineCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAFAD2B76EA1700BCE4C3 /* SineCalculatorUITests.swift */; };
+		68EBAFB02B76EA1700BCE4C3 /* SineCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAFAF2B76EA1700BCE4C3 /* SineCalculatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68EBAFA02B76EA1700BCE4C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68EBAF862B76EA1500BCE4C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68EBAF8D2B76EA1500BCE4C3;
+			remoteInfo = SineCalculator;
+		};
+		68EBAFAA2B76EA1700BCE4C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68EBAF862B76EA1500BCE4C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68EBAF8D2B76EA1500BCE4C3;
+			remoteInfo = SineCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68EBAF8E2B76EA1500BCE4C3 /* SineCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SineCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68EBAF912B76EA1500BCE4C3 /* SineCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SineCalculatorApp.swift; sourceTree = "<group>"; };
+		68EBAF932B76EA1500BCE4C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		68EBAF952B76EA1600BCE4C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68EBAF972B76EA1600BCE4C3 /* SineCalculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SineCalculator.entitlements; sourceTree = "<group>"; };
+		68EBAF992B76EA1600BCE4C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		68EBAF9F2B76EA1700BCE4C3 /* SineCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SineCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68EBAFA32B76EA1700BCE4C3 /* SineCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SineCalculatorTests.swift; sourceTree = "<group>"; };
+		68EBAFA92B76EA1700BCE4C3 /* SineCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SineCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68EBAFAD2B76EA1700BCE4C3 /* SineCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SineCalculatorUITests.swift; sourceTree = "<group>"; };
+		68EBAFAF2B76EA1700BCE4C3 /* SineCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SineCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68EBAF8B2B76EA1500BCE4C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68EBAF9C2B76EA1700BCE4C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68EBAFA62B76EA1700BCE4C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68EBAF852B76EA1500BCE4C3 = {
+			isa = PBXGroup;
+			children = (
+				68EBAF902B76EA1500BCE4C3 /* SineCalculator */,
+				68EBAFA22B76EA1700BCE4C3 /* SineCalculatorTests */,
+				68EBAFAC2B76EA1700BCE4C3 /* SineCalculatorUITests */,
+				68EBAF8F2B76EA1500BCE4C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68EBAF8F2B76EA1500BCE4C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68EBAF8E2B76EA1500BCE4C3 /* SineCalculator.app */,
+				68EBAF9F2B76EA1700BCE4C3 /* SineCalculatorTests.xctest */,
+				68EBAFA92B76EA1700BCE4C3 /* SineCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68EBAF902B76EA1500BCE4C3 /* SineCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				68EBAF912B76EA1500BCE4C3 /* SineCalculatorApp.swift */,
+				68EBAF932B76EA1500BCE4C3 /* ContentView.swift */,
+				68EBAF952B76EA1600BCE4C3 /* Assets.xcassets */,
+				68EBAF972B76EA1600BCE4C3 /* SineCalculator.entitlements */,
+				68EBAF982B76EA1600BCE4C3 /* Preview Content */,
+			);
+			path = SineCalculator;
+			sourceTree = "<group>";
+		};
+		68EBAF982B76EA1600BCE4C3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				68EBAF992B76EA1600BCE4C3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		68EBAFA22B76EA1700BCE4C3 /* SineCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				68EBAFA32B76EA1700BCE4C3 /* SineCalculatorTests.swift */,
+			);
+			path = SineCalculatorTests;
+			sourceTree = "<group>";
+		};
+		68EBAFAC2B76EA1700BCE4C3 /* SineCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68EBAFAD2B76EA1700BCE4C3 /* SineCalculatorUITests.swift */,
+				68EBAFAF2B76EA1700BCE4C3 /* SineCalculatorUITestsLaunchTests.swift */,
+			);
+			path = SineCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68EBAF8D2B76EA1500BCE4C3 /* SineCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68EBAFB32B76EA1700BCE4C3 /* Build configuration list for PBXNativeTarget "SineCalculator" */;
+			buildPhases = (
+				68EBAF8A2B76EA1500BCE4C3 /* Sources */,
+				68EBAF8B2B76EA1500BCE4C3 /* Frameworks */,
+				68EBAF8C2B76EA1500BCE4C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SineCalculator;
+			productName = SineCalculator;
+			productReference = 68EBAF8E2B76EA1500BCE4C3 /* SineCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68EBAF9E2B76EA1700BCE4C3 /* SineCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68EBAFB62B76EA1700BCE4C3 /* Build configuration list for PBXNativeTarget "SineCalculatorTests" */;
+			buildPhases = (
+				68EBAF9B2B76EA1700BCE4C3 /* Sources */,
+				68EBAF9C2B76EA1700BCE4C3 /* Frameworks */,
+				68EBAF9D2B76EA1700BCE4C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68EBAFA12B76EA1700BCE4C3 /* PBXTargetDependency */,
+			);
+			name = SineCalculatorTests;
+			productName = SineCalculatorTests;
+			productReference = 68EBAF9F2B76EA1700BCE4C3 /* SineCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68EBAFA82B76EA1700BCE4C3 /* SineCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68EBAFB92B76EA1700BCE4C3 /* Build configuration list for PBXNativeTarget "SineCalculatorUITests" */;
+			buildPhases = (
+				68EBAFA52B76EA1700BCE4C3 /* Sources */,
+				68EBAFA62B76EA1700BCE4C3 /* Frameworks */,
+				68EBAFA72B76EA1700BCE4C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68EBAFAB2B76EA1700BCE4C3 /* PBXTargetDependency */,
+			);
+			name = SineCalculatorUITests;
+			productName = SineCalculatorUITests;
+			productReference = 68EBAFA92B76EA1700BCE4C3 /* SineCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68EBAF862B76EA1500BCE4C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					68EBAF8D2B76EA1500BCE4C3 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					68EBAF9E2B76EA1700BCE4C3 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 68EBAF8D2B76EA1500BCE4C3;
+					};
+					68EBAFA82B76EA1700BCE4C3 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 68EBAF8D2B76EA1500BCE4C3;
+					};
+				};
+			};
+			buildConfigurationList = 68EBAF892B76EA1500BCE4C3 /* Build configuration list for PBXProject "SineCalculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68EBAF852B76EA1500BCE4C3;
+			productRefGroup = 68EBAF8F2B76EA1500BCE4C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68EBAF8D2B76EA1500BCE4C3 /* SineCalculator */,
+				68EBAF9E2B76EA1700BCE4C3 /* SineCalculatorTests */,
+				68EBAFA82B76EA1700BCE4C3 /* SineCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68EBAF8C2B76EA1500BCE4C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68EBAF9A2B76EA1600BCE4C3 /* Preview Assets.xcassets in Resources */,
+				68EBAF962B76EA1600BCE4C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68EBAF9D2B76EA1700BCE4C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68EBAFA72B76EA1700BCE4C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68EBAF8A2B76EA1500BCE4C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68EBAF942B76EA1500BCE4C3 /* ContentView.swift in Sources */,
+				68EBAF922B76EA1500BCE4C3 /* SineCalculatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68EBAF9B2B76EA1700BCE4C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68EBAFA42B76EA1700BCE4C3 /* SineCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68EBAFA52B76EA1700BCE4C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68EBAFAE2B76EA1700BCE4C3 /* SineCalculatorUITests.swift in Sources */,
+				68EBAFB02B76EA1700BCE4C3 /* SineCalculatorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68EBAFA12B76EA1700BCE4C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68EBAF8D2B76EA1500BCE4C3 /* SineCalculator */;
+			targetProxy = 68EBAFA02B76EA1700BCE4C3 /* PBXContainerItemProxy */;
+		};
+		68EBAFAB2B76EA1700BCE4C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68EBAF8D2B76EA1500BCE4C3 /* SineCalculator */;
+			targetProxy = 68EBAFAA2B76EA1700BCE4C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		68EBAFB12B76EA1700BCE4C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68EBAFB22B76EA1700BCE4C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		68EBAFB42B76EA1700BCE4C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SineCalculator/SineCalculator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SineCalculator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZIPhys440.SineCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68EBAFB52B76EA1700BCE4C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SineCalculator/SineCalculator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SineCalculator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZIPhys440.SineCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		68EBAFB72B76EA1700BCE4C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZIPhys440.SineCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SineCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SineCalculator";
+			};
+			name = Debug;
+		};
+		68EBAFB82B76EA1700BCE4C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZIPhys440.SineCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SineCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SineCalculator";
+			};
+			name = Release;
+		};
+		68EBAFBA2B76EA1700BCE4C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZIPhys440.SineCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SineCalculator;
+			};
+			name = Debug;
+		};
+		68EBAFBB2B76EA1700BCE4C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZIPhys440.SineCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SineCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68EBAF892B76EA1500BCE4C3 /* Build configuration list for PBXProject "SineCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68EBAFB12B76EA1700BCE4C3 /* Debug */,
+				68EBAFB22B76EA1700BCE4C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68EBAFB32B76EA1700BCE4C3 /* Build configuration list for PBXNativeTarget "SineCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68EBAFB42B76EA1700BCE4C3 /* Debug */,
+				68EBAFB52B76EA1700BCE4C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68EBAFB62B76EA1700BCE4C3 /* Build configuration list for PBXNativeTarget "SineCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68EBAFB72B76EA1700BCE4C3 /* Debug */,
+				68EBAFB82B76EA1700BCE4C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68EBAFB92B76EA1700BCE4C3 /* Build configuration list for PBXNativeTarget "SineCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68EBAFBA2B76EA1700BCE4C3 /* Debug */,
+				68EBAFBB2B76EA1700BCE4C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68EBAF862B76EA1500BCE4C3 /* Project object */;
+}
