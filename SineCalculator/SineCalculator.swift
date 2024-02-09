@@ -11,8 +11,7 @@ import SwiftUI
 
 @Observable class SineCalculator {
     
-    func factorial(x: Int) -> Int{
-        
+    func factorial(x: Int64) -> Int64{
         if x > 1 {
             return x * factorial(x: (x-1))
         }
@@ -23,7 +22,7 @@ import SwiftUI
         
         var sine: Double = 0.0
         for n in 1...N {
-            sine += pow(-1.0, Double(n-1)) * pow(x, Double(2*n-1)) / Double(factorial(x: (2*n - 1)))
+            sine += pow(-1.0, Double(n-1)) * pow(x, Double(2*n-1)) / Double(factorial(x: Int64(2*n - 1)))
         }
         return sine
     }
@@ -34,7 +33,7 @@ import SwiftUI
         var n: Int = 1
         var nextTerm: Double
         repeat{
-            nextTerm = pow(-1.0, Double(n-1)) * pow(x, Double(2*n-1)) / Double(factorial(x: (2*n - 1)))
+            nextTerm = pow(-1.0, Double(n-1)) * pow(x, Double(2*n-1)) / Double(factorial(x: Int64(2*n - 1)))
             sine += nextTerm
             n += 1
         } while abs(nextTerm) > 1E-7 * sine

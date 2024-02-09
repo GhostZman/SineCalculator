@@ -17,10 +17,16 @@ final class SineCalculatorTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
+    func testCalcWithN() throws {
         let mySine = SineCalculator()
         
-        XCTAssertEqual(mySine.calculate(N: 5, x: 1), sin(1), accuracy: 1.0E-7, "Was not equal to this resolution.")
+        XCTAssertEqual(mySine.calculateWithN(N: 5, x: 1), sin(1), accuracy: 1.0E-7, "Was not equal to this resolution.")
+    }
+    
+    func testCalcWithStop() throws {
+        let mySine = SineCalculator()
+        
+        XCTAssertEqual(mySine.calculateToSmallTerm(x: 0.1), sin(0.1), accuracy: 1.0E-7, "Was not equal to this resolution.")
     }
 
     func testPerformanceExample() throws {
