@@ -14,6 +14,13 @@
 		68EBAFA42B76EA1700BCE4C3 /* SineCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAFA32B76EA1700BCE4C3 /* SineCalculatorTests.swift */; };
 		68EBAFAE2B76EA1700BCE4C3 /* SineCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAFAD2B76EA1700BCE4C3 /* SineCalculatorUITests.swift */; };
 		68EBAFB02B76EA1700BCE4C3 /* SineCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAFAF2B76EA1700BCE4C3 /* SineCalculatorUITestsLaunchTests.swift */; };
+		68EBAFBC2B76EA2700BCE4C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF932B76EA1500BCE4C3 /* ContentView.swift */; };
+		68EBAFBD2B76EA2800BCE4C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF932B76EA1500BCE4C3 /* ContentView.swift */; };
+		68EBAFBE2B76EA2A00BCE4C3 /* SineCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF912B76EA1500BCE4C3 /* SineCalculatorApp.swift */; };
+		68EBAFBF2B76EA2B00BCE4C3 /* SineCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAF912B76EA1500BCE4C3 /* SineCalculatorApp.swift */; };
+		68EBAFC12B76EA7500BCE4C3 /* SineCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAFC02B76EA7500BCE4C3 /* SineCalculator.swift */; };
+		68EBAFC22B76EA7500BCE4C3 /* SineCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAFC02B76EA7500BCE4C3 /* SineCalculator.swift */; };
+		68EBAFC32B76EA7500BCE4C3 /* SineCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAFC02B76EA7500BCE4C3 /* SineCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,7 @@
 		68EBAFA92B76EA1700BCE4C3 /* SineCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SineCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68EBAFAD2B76EA1700BCE4C3 /* SineCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SineCalculatorUITests.swift; sourceTree = "<group>"; };
 		68EBAFAF2B76EA1700BCE4C3 /* SineCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SineCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		68EBAFC02B76EA7500BCE4C3 /* SineCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SineCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				68EBAF912B76EA1500BCE4C3 /* SineCalculatorApp.swift */,
+				68EBAFC02B76EA7500BCE4C3 /* SineCalculator.swift */,
 				68EBAF932B76EA1500BCE4C3 /* ContentView.swift */,
 				68EBAF952B76EA1600BCE4C3 /* Assets.xcassets */,
 				68EBAF972B76EA1600BCE4C3 /* SineCalculator.entitlements */,
@@ -260,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68EBAF942B76EA1500BCE4C3 /* ContentView.swift in Sources */,
+				68EBAFC12B76EA7500BCE4C3 /* SineCalculator.swift in Sources */,
 				68EBAF922B76EA1500BCE4C3 /* SineCalculatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +278,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68EBAFC22B76EA7500BCE4C3 /* SineCalculator.swift in Sources */,
+				68EBAFBE2B76EA2A00BCE4C3 /* SineCalculatorApp.swift in Sources */,
+				68EBAFBC2B76EA2700BCE4C3 /* ContentView.swift in Sources */,
 				68EBAFA42B76EA1700BCE4C3 /* SineCalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,8 +289,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68EBAFBF2B76EA2B00BCE4C3 /* SineCalculatorApp.swift in Sources */,
 				68EBAFAE2B76EA1700BCE4C3 /* SineCalculatorUITests.swift in Sources */,
+				68EBAFC32B76EA7500BCE4C3 /* SineCalculator.swift in Sources */,
 				68EBAFB02B76EA1700BCE4C3 /* SineCalculatorUITestsLaunchTests.swift in Sources */,
+				68EBAFBD2B76EA2800BCE4C3 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
