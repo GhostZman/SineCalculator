@@ -43,4 +43,16 @@ import SwiftUI
         return sine
     }
     
+    func useTrig(x: Double) -> Double {
+        var newX: Double = x
+        while newX > 2 * Double.pi {
+            newX = newX - (2 * Double.pi)
+        }
+        
+        if newX > Double.pi{
+            return -1.0 * self.calculateToSmallTerm(x: newX - Double.pi)
+        }
+        
+        return self.calculateToSmallTerm(x: newX)
+    }
 }
