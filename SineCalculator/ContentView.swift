@@ -23,7 +23,7 @@ struct ContentView: View {
             
             Button("Calculate") {
                 // Calculate Series and Exact values
-                seriesValue = mySine.calculateToSmallTerm(x: Double(inputValue) ?? 1)
+                seriesValue = mySine.useTrig(x: Double(inputValue) ?? 1)
                 exactValue = sin(Double(inputValue) ?? 1)
             }
             .padding()
