@@ -33,10 +33,14 @@ import SwiftUI
         var n: Int = 1
         var nextTerm: Double
         repeat{
-            nextTerm = pow(-1.0, Double(n-1)) * pow(x, Double(2*n-1)) / Double(factorial(x: Int64(2*n - 1)))
+            nextTerm = pow(-1.0, Double(n-1)) * pow(x, Double(2*n-1))
+            for i in 1...(2*n-1){
+                nextTerm = nextTerm / Double(i)
+            }
             sine += nextTerm
             n += 1
         } while abs(nextTerm) > 1E-7 * sine
         return sine
     }
+    
 }
