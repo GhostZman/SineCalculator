@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct SineCalculatorApp: App {
+    
+    @State var plotData = PlotClass()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+                ContentView()
+                    .environment(plotData)
         }
     }
 }
