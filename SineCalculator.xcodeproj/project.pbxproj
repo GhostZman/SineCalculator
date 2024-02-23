@@ -21,6 +21,18 @@
 		68EBAFC12B76EA7500BCE4C3 /* SineCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAFC02B76EA7500BCE4C3 /* SineCalculator.swift */; };
 		68EBAFC22B76EA7500BCE4C3 /* SineCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAFC02B76EA7500BCE4C3 /* SineCalculator.swift */; };
 		68EBAFC32B76EA7500BCE4C3 /* SineCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBAFC02B76EA7500BCE4C3 /* SineCalculator.swift */; };
+		68FD012E2B893A7D0027CDF9 /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FD012A2B893A7D0027CDF9 /* ChangingPlotParameters.swift */; };
+		68FD012F2B893A7D0027CDF9 /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FD012A2B893A7D0027CDF9 /* ChangingPlotParameters.swift */; };
+		68FD01302B893A7D0027CDF9 /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FD012A2B893A7D0027CDF9 /* ChangingPlotParameters.swift */; };
+		68FD01312B893A7D0027CDF9 /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FD012B2B893A7D0027CDF9 /* PlotDataClass.swift */; };
+		68FD01322B893A7D0027CDF9 /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FD012B2B893A7D0027CDF9 /* PlotDataClass.swift */; };
+		68FD01332B893A7D0027CDF9 /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FD012B2B893A7D0027CDF9 /* PlotDataClass.swift */; };
+		68FD01342B893A7D0027CDF9 /* PlotDataStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FD012C2B893A7D0027CDF9 /* PlotDataStruct.swift */; };
+		68FD01352B893A7D0027CDF9 /* PlotDataStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FD012C2B893A7D0027CDF9 /* PlotDataStruct.swift */; };
+		68FD01362B893A7D0027CDF9 /* PlotDataStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FD012C2B893A7D0027CDF9 /* PlotDataStruct.swift */; };
+		68FD01372B893A7D0027CDF9 /* PlotClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FD012D2B893A7D0027CDF9 /* PlotClass.swift */; };
+		68FD01382B893A7D0027CDF9 /* PlotClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FD012D2B893A7D0027CDF9 /* PlotClass.swift */; };
+		68FD01392B893A7D0027CDF9 /* PlotClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FD012D2B893A7D0027CDF9 /* PlotClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +65,10 @@
 		68EBAFAD2B76EA1700BCE4C3 /* SineCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SineCalculatorUITests.swift; sourceTree = "<group>"; };
 		68EBAFAF2B76EA1700BCE4C3 /* SineCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SineCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		68EBAFC02B76EA7500BCE4C3 /* SineCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SineCalculator.swift; sourceTree = "<group>"; };
+		68FD012A2B893A7D0027CDF9 /* ChangingPlotParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangingPlotParameters.swift; sourceTree = "<group>"; };
+		68FD012B2B893A7D0027CDF9 /* PlotDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlotDataClass.swift; sourceTree = "<group>"; };
+		68FD012C2B893A7D0027CDF9 /* PlotDataStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlotDataStruct.swift; sourceTree = "<group>"; };
+		68FD012D2B893A7D0027CDF9 /* PlotClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlotClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +120,10 @@
 			isa = PBXGroup;
 			children = (
 				68EBAF912B76EA1500BCE4C3 /* SineCalculatorApp.swift */,
+				68FD012A2B893A7D0027CDF9 /* ChangingPlotParameters.swift */,
+				68FD012D2B893A7D0027CDF9 /* PlotClass.swift */,
+				68FD012B2B893A7D0027CDF9 /* PlotDataClass.swift */,
+				68FD012C2B893A7D0027CDF9 /* PlotDataStruct.swift */,
 				68EBAFC02B76EA7500BCE4C3 /* SineCalculator.swift */,
 				68EBAF932B76EA1500BCE4C3 /* ContentView.swift */,
 				68EBAF952B76EA1600BCE4C3 /* Assets.xcassets */,
@@ -269,6 +289,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				68EBAF942B76EA1500BCE4C3 /* ContentView.swift in Sources */,
+				68FD01372B893A7D0027CDF9 /* PlotClass.swift in Sources */,
+				68FD012E2B893A7D0027CDF9 /* ChangingPlotParameters.swift in Sources */,
+				68FD01312B893A7D0027CDF9 /* PlotDataClass.swift in Sources */,
+				68FD01342B893A7D0027CDF9 /* PlotDataStruct.swift in Sources */,
 				68EBAFC12B76EA7500BCE4C3 /* SineCalculator.swift in Sources */,
 				68EBAF922B76EA1500BCE4C3 /* SineCalculatorApp.swift in Sources */,
 			);
@@ -279,9 +303,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				68EBAFC22B76EA7500BCE4C3 /* SineCalculator.swift in Sources */,
+				68FD01322B893A7D0027CDF9 /* PlotDataClass.swift in Sources */,
 				68EBAFBE2B76EA2A00BCE4C3 /* SineCalculatorApp.swift in Sources */,
+				68FD012F2B893A7D0027CDF9 /* ChangingPlotParameters.swift in Sources */,
 				68EBAFBC2B76EA2700BCE4C3 /* ContentView.swift in Sources */,
+				68FD01352B893A7D0027CDF9 /* PlotDataStruct.swift in Sources */,
 				68EBAFA42B76EA1700BCE4C3 /* SineCalculatorTests.swift in Sources */,
+				68FD01382B893A7D0027CDF9 /* PlotClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +321,11 @@
 				68EBAFAE2B76EA1700BCE4C3 /* SineCalculatorUITests.swift in Sources */,
 				68EBAFC32B76EA7500BCE4C3 /* SineCalculator.swift in Sources */,
 				68EBAFB02B76EA1700BCE4C3 /* SineCalculatorUITestsLaunchTests.swift in Sources */,
+				68FD01332B893A7D0027CDF9 /* PlotDataClass.swift in Sources */,
+				68FD01362B893A7D0027CDF9 /* PlotDataStruct.swift in Sources */,
 				68EBAFBD2B76EA2800BCE4C3 /* ContentView.swift in Sources */,
+				68FD01302B893A7D0027CDF9 /* ChangingPlotParameters.swift in Sources */,
+				68FD01392B893A7D0027CDF9 /* PlotClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
